@@ -4,7 +4,7 @@ import TimeContainer from "./Components/Body";
 import Footer from "./Components/Footer";
 import "./Assets/Styles/AppStyle.css";
 import { useState } from "react";
-const backgroundImg0 = require("./Assets/Images/titanium-texture.jpg");
+const backgroundImg0 = require("./Assets/Images/background.jpg");
 
 function App() {
   let [background, setBackground] = useState(backgroundImg0)
